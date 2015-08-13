@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1013]C:\Users\redcoal\Desktop\NumericSequence\NumberSequence.Tests\bin\Debug\NumberSequence.Tests.dll</TopNode>
+  <SelectedNode>[0-1000]NumberSequence.Tests.SequenceNumericFunctionalUITest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1013]C:\Users\redcoal\Desktop\NumericSequence\NumberSequence.Tests\bin\Debug\NumberSequence.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1014]NumberSequence" Expanded="true" />
+    <Node UniqueName="[0-1015]NumberSequence.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]NumberSequence.Tests.SequenceNumericFunctionalUITest" Expanded="true" />
+    <Node UniqueName="[0-1002]NumberSequence.Tests.SequenceNumericTest" Expanded="true" />
+    <Node UniqueName="[0-1009]NumberSequence.Tests.SequenceNumericTest.ShouldGetCustomNumbers" Expanded="true" />
+    <Node UniqueName="[0-1007]NumberSequence.Tests.SequenceNumericTest.ShouldGetEvenNumbers" Expanded="true" />
+    <Node UniqueName="[0-1011]NumberSequence.Tests.SequenceNumericTest.ShouldGetFibonacciNumbers" Expanded="true" />
+    <Node UniqueName="[0-1003]NumberSequence.Tests.SequenceNumericTest.ShouldGetNumbers" Expanded="true" />
+    <Node UniqueName="[0-1005]NumberSequence.Tests.SequenceNumericTest.ShouldGetOddNumbers" Expanded="true" />
+  </Nodes>
+</VisualState>

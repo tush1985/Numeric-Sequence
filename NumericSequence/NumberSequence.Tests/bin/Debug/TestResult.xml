@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\redcoal\Desktop\NumericSequence\NumberSequence.Tests\bin\Debug\NumberSequence.Tests.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-08-12" time="13:35:40">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\redcoal\Downloads\NUnit-2.6.4\NUnit-2.6.4\bin" machine-name="REDCOAL-PC" user="redcoal" user-domain="redcoal-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\redcoal\Desktop\NumericSequence\NumberSequence.Tests\bin\Debug\NumberSequence.Tests.dll" executed="True" result="Failure" success="False" time="0.653" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NumberSequence" executed="True" result="Failure" success="False" time="0.639" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.639" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="SequenceNumericFunctionalUITest" executed="True" result="Failure" success="False" time="0.637" asserts="0">
+                <results>
+                  <test-case name="NumberSequence.Tests.SequenceNumericFunctionalUITest.ShouldGetNumbers" executed="True" result="Error" success="False" time="0.622" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.TypeInitializationException : The type initializer for 'NumberSequence.Tests.BrowserHost' threw an exception.
+  ----> System.IO.DirectoryNotFoundException : Attempted to access a path that is not on the disk.]]></message>
+                      <stack-trace><![CDATA[at NumberSequence.Tests.SequenceNumericFunctionalUITest.ShouldGetNumbers() in c:\Users\redcoal\Desktop\NumericSequence\NumberSequence.Tests\SequenceNumericFunctionalUITest.cs:line 18
+--DirectoryNotFoundException
+at TestStack.Seleno.Configuration.WebServers.ProjectLocation.FindSubFolderPath(String rootFolderPath, String folderName) in c:\ConsoleBuildAgent\work\6625a30e8ee728ba\src\TestStack.Seleno\Configuration\WebServers\ProjectLocation.cs:line 59
+at TestStack.Seleno.Configuration.WebServers.ProjectLocation.FromFolder(String webProjectFolderName) in c:\ConsoleBuildAgent\work\6625a30e8ee728ba\src\TestStack.Seleno\Configuration\WebServers\ProjectLocation.cs:line 33
+at TestStack.Seleno.Configuration.SelenoHost.Run(String webProjectFolder, Int32 portNumber, Action`1 configure) in c:\ConsoleBuildAgent\work\6625a30e8ee728ba\src\TestStack.Seleno\Configuration\SelenoHost.cs:line 51
+at NumberSequence.Tests.BrowserHost..cctor() in c:\Users\redcoal\Desktop\NumericSequence\NumberSequence.Tests\BrowserHost.cs:line 16
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
